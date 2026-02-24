@@ -1,11 +1,14 @@
-const UserRequestForm = () => {
-    return (
-    <div>
-        {/* create input form to take input requirements from users  */}
-        User Request Form
-    </div>
-      );
-};
+import Typography from "@mui/material/Typography";
 
+const UserRequestForm = () => {
+  return (
+    <div>
+      {/* create input form to take input requirements from users  */}
+      <Typography variant="h5" sx={{ mb: 2 }}>
+        User Request Form
+      </Typography>
+    </div>
+  );
+};
 
 export default UserRequestForm;

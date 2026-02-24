@@ -1,13 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import UserRequestForm from './components/UserRequestForm';
-import BusinessProposal from './components/BusinessProposal';
+import logo from "./logo.svg";
+import "./App.css";
+import UserRequestForm from "./components/UserRequestForm";
+import BusinessProposal from "./components/BusinessProposal";
 
 function App() {
   return (
-    <div>
-      <UserRequestForm/>
-      <BusinessProposal/>
+    <div className="App">
+      <UserRequestForm />
+      <BusinessProposal />
     </div>
   );
 }
