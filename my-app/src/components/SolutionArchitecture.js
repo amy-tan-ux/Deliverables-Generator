@@ -1,4 +1,4 @@
-const SolutionArchitecture = () => {
+const SolutionArchitecture = ({deliverables}) => {
     return (
     <div>
         {/* display solution architechture diagram  */}

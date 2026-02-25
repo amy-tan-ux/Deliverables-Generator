@@ -2,7 +2,7 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import { dataDesignPlanMock } from "../mockData";
 
-const DataDesignPlan = () => {
+const DataDesignPlan = ({deliverables}) => {
   const data = dataDesignPlanMock;
 
   return (

@@ -1,6 +1,6 @@
 import Typography from "@mui/material/Typography";
 
-const UserRequestForm = () => {
+const UserRequestForm = ({deliverables}) => {
   return (
     <div>
       {/* create input form to take input requirements from users  */}

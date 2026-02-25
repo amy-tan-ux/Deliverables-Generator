@@ -11,10 +11,10 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
-const BusinessProposal = () => {
+const BusinessProposal = ({deliverables}) => {
   const sections = [
     { id: "problem-requirements", title: "Problem & Requirements", Component: ProblemRequirements },
-    { id: "technical-design", title: "Technical Design Plan", Component: TechnicalDesignPlan },
+    //{ id: "technical-design", title: "Technical Design Plan", Component: TechnicalDesignPlan },
     { id: "data-design", title: "Data Design Plan", Component: DataDesignPlan },
     { id: "delivery-plan", title: "Delivery Plan", Component: DeliveryPlan },
   ];
@@ -43,7 +43,7 @@ const BusinessProposal = () => {
               <Typography component="span">{title}</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Component />
+              <Component deliverables={deliverables} />
             </AccordionDetails>
           </Accordion>
         ))}

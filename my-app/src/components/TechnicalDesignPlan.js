@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import SolutionArchitecture from "./SolutionArchitecture";
 import { technicalDesignPlanMock } from "../mockData";
 
-const TechnicalDesignPlan = () => {
+const TechnicalDesignPlan = ({deliverables}) => {
   const data = technicalDesignPlanMock;
 
   return (
