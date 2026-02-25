@@ -3,10 +3,14 @@ AI Hackathon Deliverables Generator FRONTEND REPO
 
 Download Required:
 Node Installer
-# MUI core components
+
+# Packages
 npm install @mui/material
-# Emotion for styling
 npm install @emotion/react @emotion/styled
+
+# .env var required
+REACT_APP_DELIVERABLES_API=
+
 
 # How to Run React App:
 cd my-app
