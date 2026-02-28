@@ -107,9 +107,9 @@ return (
         Error Ecountered. Please try again later.
       </Typography>}
       <form onSubmit={handleSubmit} style={{ maxWidth: 600, margin: "0 auto", textAlign: "left", height: "auto", padding: "20px" }}>
-          <h2>Describe Your Product / Business Problem</h2>
+          <h2 style={{ color: "white" }}>Describe Your Product / Business Problem</h2>
 
-          <label htmlFor="businessProblem" style={{ display: "block", marginTop: 12 }}>
+          <label htmlFor="businessProblem" style={{ display: "block", marginTop: 12,color: "white"  }}>
             Technical Business Problem / Product<span style={{ color: "crimson" }}>*</span>
           </label>
           <textarea
@@ -125,7 +125,7 @@ return (
             <div style={{ color: "crimson", fontSize: 12 }}>{errors.businessProblem}</div>
           )}
 
-          <label htmlFor="techStack" style={{ display: "block", marginTop: 12 }}>
+          <label htmlFor="techStack" style={{ display: "block", marginTop: 12,color: "white"  }}>
             Tech Stack
           </label>
           <input
@@ -139,7 +139,7 @@ return (
           />
           {errors.techStack && <div style={{ color: "crimson", fontSize: 12 }}>{errors.techStack}</div>}
 
-          <label htmlFor="timeConstraint" style={{ display: "block", marginTop: 12 }}>
+          <label htmlFor="timeConstraint" style={{ display: "block", marginTop: 12, color: "white"  }}>
             Time Constraint
           </label>
           <input
@@ -155,7 +155,7 @@ return (
             <div style={{ color: "crimson", fontSize: 12 }}>{errors.timeConstraint}</div>
           )}
 
-          <label htmlFor="resourceConstraints" style={{ display: "block", marginTop: 12 }}>
+          <label htmlFor="resourceConstraints" style={{ display: "block", marginTop: 12, color: "white"  }}>
             Resource Constraints
           </label>
           <textarea

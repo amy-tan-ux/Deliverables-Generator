@@ -8,7 +8,7 @@ export const getDeliverablesData = async (session, business_problem, tech_stack,
     }
 
     try{
-        const openai_response = await fetch(API_BASE_URL + "/generate", {
+        const openai_response = await fetch(API_BASE_URL + "/generate-full-proposal", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
