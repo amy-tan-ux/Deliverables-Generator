@@ -15,7 +15,7 @@ const BusinessProposal = ({deliverables}) => {
   const sections = [
     { id: "problem-requirements", title: "Problem & Requirements", Component: ProblemRequirements },
     //{ id: "technical-design", title: "Technical Design Plan", Component: TechnicalDesignPlan },
-    // { id: "data-design", title: "Data Design Plan", Component: DataDesignPlan },
+    { id: "data-design", title: "Data Design Plan", Component: DataDesignPlan },
     // { id: "delivery-plan", title: "Delivery Plan", Component: DeliveryPlan },
   ];
 
